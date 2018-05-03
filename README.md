@@ -44,11 +44,11 @@ require("nofile")
 
 **Method:** `nofile.find`
 
-**Type:** {Function}
+**Type:** `{Function}`
 
 **Parameters:** `{String:pattern}` Pattern to find the first missing file. It is a pattern because it needs to contain `"{n}"` literally. This substring will be replaced by 0, 1, 2, 3, 4,... (and so on) until a missing file is found.
 
-**Returns:** {Promise}
+**Returns:** `{Promise}`
 
 **Description:** Finds the first missing file based on the passed pattern, and returns a `{Promise}` object that receives that file.
 
@@ -56,13 +56,13 @@ require("nofile")
 
 ----
 
-**Method:** `nofile.find`
+**Method:** `nofile.findSync`
 
-**Type:** {Function}
+**Type:** `{Function}`
 
 **Parameters:** `{String:pattern}` Pattern to find the first missing file. It is a pattern because it needs to contain `"{n}"` literally. This substring will be replaced by 0, 1, 2, 3, 4,... (and so on) until a missing file is found.
 
-**Returns:** {String} The missing file itself.
+**Returns:** `{String}` The missing file itself.
 
 **Description:** Finds the first missing file based on the passed pattern, and returns it as `{String}`.
 

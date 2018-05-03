@@ -1,10 +1,10 @@
 {
-  "name": "file-available",
+  "name": "nofile",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple Node.js module to find the first missing file from a file pattern.",
+  "main": "src/nofile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/nofile.spec.js"
   },
   "author": "",
   "license": "ISC",
